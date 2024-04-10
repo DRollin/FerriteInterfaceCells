@@ -1,0 +1,13 @@
+name = "FerriteInterfaceCells"
+uuid = "d1c47b9e-e703-432b-b7c1-a10f31d12184"
+authors = ["David Rollin <d.rollin@tu-braunschweig.de>"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
